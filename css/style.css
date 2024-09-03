@@ -1,0 +1,183 @@
+*{margin:0;padding:0;}/*Não deixar que os itens da página atinjam as extremidades*/
+
+hr{
+    display: block;/*Não permite movimentação da linha*/
+    margin-top: 0.5em;/*Espaçamento entre o topo da margem*/
+    margin-bottom: 0.5em;/*Espaçamento entre a parte de baixo*/
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    border-color: rgb(1, 9, 255);/*cor da borda*/
+}
+
+header img{/*Definições da imagem que estão dentro do cabeçalho*/
+    width: 100px;/*Largura da imagem*/
+    height: 100px;/*Altura da imagem*/
+    margin: 10px;/*margem da imagem*/
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+header h1{/*Definições do titulo que estão dentro do cabeçalho*/
+    color: rgb(0, 123, 224);
+    -webkit-text-stroke: 3px rgb(0, 0, 0);
+    padding-top:30px;/*Espaçamento entre o topo e o texto*/
+}
+#menu ul{/*ID para lista*/
+    list-style: none;/*Sem nenhum estilo na lista, tira os pontos*/
+    margin-left: 200px;
+}
+#menu li{
+    position: relative;/*Posição relativa o item da lista*/
+}
+#menu li a{
+    color:rgb(0, 0, 0); /*cor do texto no menu*/
+    text-decoration: none; /*Sem estilo no texto*/
+    padding: 5px 10px; /*Espaçamento entre os textos nos menus*/
+    display: block; /*Opções do menu bloqueados na posição atual*/
+    padding-top: 45px;
+}
+#menu li a:hover{
+    background: #00aaff; /*fundo do efeito*/
+    color:#fff; /*Cor do texto no efeito*/
+    text-shadow: 0px 0px 5px #fff; /*Sombra do efeito*/
+}
+#menu li ul{
+    position:absolute;
+    top: 25px; /*Espaçamento do topo*/
+    left: 0;/* Espaçamento da esquerda*/
+    background-color: #fff;
+    display: none;
+}
+#menu li:hover ul, #menu li.over ul{
+    display: block;/*Durante o efeito não moverá o menu*/
+}
+header, #menu,#menu ul{
+    display: flex;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    
+}
+footer hr {
+    
+    margin-top: 100px;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px; /*Largura da borda*/
+    border-color: rgb(255, 255, 255); /*Cor da borda*/
+  }
+
+
+  footer img{
+    width: 200px;
+    height: 200px;
+    margin-left: 1000px;
+    
+    }
+    footer h1{
+    
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px rgb(75, 85, 84);
+    margin-left: 1550px;
+    padding-bottom: 15px;
+    }
+
+
+.quem-somos{
+    text-align: center;
+}
+.quem-somos img{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    border: 5px solid black;
+    object-fit: cover;
+    border-radius: 25%;
+}
+p{
+    text-align: justify;
+    margin: 7px;
+    padding: 40px;
+}
+.contato{
+    text-align: center;
+
+}
+.contato img{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    border: 3px groove black;
+    border-radius: 50%;
+
+}
+.banner{
+    text-align: center;
+    
+}
+.banner img{
+    display: inline-block;
+    margin-left: auto;
+    border-radius: 10%;
+    margin-right: auto;
+    padding: 20px;
+}
+.product-table {
+    width: 75%;
+    margin:  auto;
+    display: block;
+    padding:  20px;
+    background: #ffffff; /*fundo do efeito*/
+    color:#000000; /*Cor do texto no efeito*/
+    text-shadow: 0px 0px 5px #ffffff;
+    border: 2px groove #000000;
+    
+}
+.product-table img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    border: 3px groove rgb(13, 0, 255);
+}
+.fonte{
+    text-align: center;
+}
+.product-table th, .product-table td{
+    padding: 12px 20px;  
+    text-align: left;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.transporte img{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+
+}
